@@ -1,0 +1,362 @@
+Dependencies for Project 'CDC', Target 'KL25Z': (DO NOT MODIFY !)
+F (.\startup_MKL25Z4.s)(0x5123CC93)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis --list "startup_MKL25Z4.lst" --xref -o ".\output\startup_MKL25Z4.o" --depend ".\output\startup_MKL25Z4.d")
+F (.\system_MKL25Z4.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\system_mkl25z4.o" --omf_browse ".\output\system_mkl25z4.crf" --depend ".\output\system_mkl25z4.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+F (.\usb\usb_class.c)(0x50BEBBB5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_class.o" --omf_browse ".\output\usb_class.crf" --depend ".\output\usb_class.d")
+I (usb\usb_class.h)(0x50BEBBB5)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_framework.h)(0x50BEBBB5)
+I (usb\usb_descriptor.h)(0x5123CC93)
+F (.\usb\usb_cdc.c)(0x50BEBBB5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_cdc.o" --omf_browse ".\output\usb_cdc.crf" --depend ".\output\usb_cdc.d")
+I (usb\usb_cdc.h)(0x50BEBBB5)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_descriptor.h)(0x5123CC93)
+I (usb\usb_class.h)(0x50BEBBB5)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_cdc_pstn.h)(0x50BEBBB5)
+F (.\usb\usb_cdc_pstn.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_cdc_pstn.o" --omf_browse ".\output\usb_cdc_pstn.crf" --depend ".\output\usb_cdc_pstn.d")
+I (usb\usb_cdc_pstn.h)(0x50BEBBB5)
+I (usb\usb_cdc.h)(0x50BEBBB5)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_descriptor.h)(0x5123CC93)
+I (usb\usb_class.h)(0x50BEBBB5)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\user_config.h)(0x50BFE2C8)
+F (.\usb\usb_dci_kinetis.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_dci_kinetis.o" --omf_browse ".\output\usb_dci_kinetis.crf" --depend ".\output\usb_dci_kinetis.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (usb\usb_dciapi.h)(0x50BEBBB5)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_dci_kinetis.h)(0x50BEBBB5)
+I (usb\usb_bdt_kinetis.h)(0x50BEBBB5)
+I (usb\wdt_kinetis.h)(0x5123CC93)
+I (usb\usb_class.h)(0x50BEBBB5)
+F (.\usb\usb_driver.c)(0x50BEBBB5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_driver.o" --omf_browse ".\output\usb_driver.crf" --depend ".\output\usb_driver.d")
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_dciapi.h)(0x50BEBBB5)
+I (usb\USB_Config.h)(0x50BEBBB5)
+F (.\usb\usb_framework.c)(0x50BEBBB5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_framework.o" --omf_browse ".\output\usb_framework.crf" --depend ".\output\usb_framework.d")
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_class.h)(0x50BEBBB5)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_framework.h)(0x50BEBBB5)
+I (usb\usb_descriptor.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+F (.\main.c)(0x515C8765)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (RealTimerCounter.h)(0x50BEBBB6)
+I (.\usb\Wdt_kinetis.h)(0x5123CC93)
+I (hidef.h)(0x50BEBBB6)
+I (.\usb\usb_dci_kinetis.h)(0x50BEBBB5)
+I (.\usb\usb_devapi.h)(0x50BEBBB5)
+I (.\usb\usb_dciapi.h)(0x50BEBBB5)
+I (.\usb\usb_cdc.h)(0x50BEBBB5)
+I (.\usb\usb_descriptor.h)(0x5123CC93)
+I (.\usb\usb_class.h)(0x50BEBBB5)
+I (.\usb\usb_cdc_pstn.h)(0x50BEBBB5)
+I (.\usb\virtual_com.h)(0x5123CC93)
+I (i2c.h)(0x5123CC93)
+I (led.h)(0x5123CC93)
+I (ui.h)(0x5123CC93)
+I (spi.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (..\ff9b\src\ff.h)(0x5123CCA1)
+I (..\ff9b\src\integer.h)(0x5123CCA1)
+I (..\ff9b\src\ffconf.h)(0x5123CCA1)
+I (..\ff9b\src\diskio.h)(0x5123CCA1)
+F (.\RealTimerCounter_kinetis.c)(0x50BEBBB5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\realtimercounter_kinetis.o" --omf_browse ".\output\realtimercounter_kinetis.crf" --depend ".\output\realtimercounter_kinetis.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (RealTimerCounter.h)(0x50BEBBB6)
+F (.\usb\usb_descriptor.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\usb_descriptor.o" --omf_browse ".\output\usb_descriptor.crf" --depend ".\output\usb_descriptor.d")
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_class.h)(0x50BEBBB5)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_descriptor.h)(0x5123CC93)
+F (.\usb\wdt_kinetis.c)(0x50BEBBB5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\wdt_kinetis.o" --omf_browse ".\output\wdt_kinetis.crf" --depend ".\output\wdt_kinetis.d")
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (usb\wdt_kinetis.h)(0x5123CC93)
+F (.\usb\virtual_com.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\virtual_com.o" --omf_browse ".\output\virtual_com.crf" --depend ".\output\virtual_com.d")
+I (.\hidef.h)(0x50BEBBB6)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
+I (usb\usb_cdc.h)(0x50BEBBB5)
+I (usb\usb_descriptor.h)(0x5123CC93)
+I (usb\usb_class.h)(0x50BEBBB5)
+I (usb\usb_devapi.h)(0x50BEBBB5)
+I (usb\user_config.h)(0x50BFE2C8)
+I (usb\usb_cdc_pstn.h)(0x50BEBBB5)
+I (usb\virtual_com.h)(0x5123CC93)
+I (.\ui.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+F (.\i2c.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\i2c.o" --omf_browse ".\output\i2c.crf" --depend ".\output\i2c.d")
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (i2c.h)(0x5123CC93)
+F (.\led.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\led.o" --omf_browse ".\output\led.crf" --depend ".\output\led.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x50FA4250)
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (i2c.h)(0x5123CC93)
+I (led.h)(0x5123CC93)
+F (.\ui.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\ui.o" --omf_browse ".\output\ui.crf" --depend ".\output\ui.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (.\usb\usb_cdc.h)(0x50BEBBB5)
+I (.\usb\usb_descriptor.h)(0x5123CC93)
+I (.\usb\usb_class.h)(0x50BEBBB5)
+I (.\usb\usb_devapi.h)(0x50BEBBB5)
+I (.\hidef.h)(0x50BEBBB6)
+I (.\usb\usb_cdc_pstn.h)(0x50BEBBB5)
+I (.\usb\virtual_com.h)(0x5123CC93)
+I (led.h)(0x5123CC93)
+I (ui.h)(0x5123CC93)
+I (..\ff9b\src\ff.h)(0x5123CCA1)
+I (..\ff9b\src\integer.h)(0x5123CCA1)
+I (..\ff9b\src\ffconf.h)(0x5123CCA1)
+I (..\ff9b\src\diskio.h)(0x5123CCA1)
+I (fileio.h)(0x5123CC93)
+F (.\spi.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\spi.o" --omf_browse ".\output\spi.crf" --depend ".\output\spi.d")
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (spi.h)(0x5123CC93)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+F (.\fileio.c)(0x5123CC93)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\fileio.o" --omf_browse ".\output\fileio.crf" --depend ".\output\fileio.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (config.h)(0x5123CC93)
+I (derivative.h)(0x5123CC93)
+I (local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (led.h)(0x5123CC93)
+I (ui.h)(0x5123CC93)
+I (..\ff9b\src\ff.h)(0x5123CCA1)
+I (..\ff9b\src\integer.h)(0x5123CCA1)
+I (..\ff9b\src\ffconf.h)(0x5123CCA1)
+I (..\ff9b\src\diskio.h)(0x5123CCA1)
+I (fileio.h)(0x5123CC93)
+F (..\ff9b\src\ff.c)(0x5123CCA1)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\ff.o" --omf_browse ".\output\ff.crf" --depend ".\output\ff.d")
+I (..\ff9b\src\ff.h)(0x5123CCA1)
+I (..\ff9b\src\integer.h)(0x5123CCA1)
+I (..\ff9b\src\ffconf.h)(0x5123CCA1)
+I (..\ff9b\src\diskio.h)(0x5123CCA1)
+F (..\ff9b\port\mmc-mkl25z.c)(0x5123CC9D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I. -I.\usb -I..\ff9b\src -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Freescale\Kinetis -o ".\output\mmc-mkl25z.o" --omf_browse ".\output\mmc-mkl25z.crf" --depend ".\output\mmc-mkl25z.d")
+I (..\ff9b\src\integer.h)(0x5123CCA1)
+I (..\ff9b\src\diskio.h)(0x5123CCA1)
+I (.\spi.h)(0x5123CC93)
+I (.\derivative.h)(0x5123CC93)
+I (.\local_MKL25Z4.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50FA4250)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x50882CA8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50882E6E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50882E6E)
+I (C:\Keil\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x50882CA8)
+I (.\usb\user_config.h)(0x50BFE2C8)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50FA4250)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50FA4250)
+I (.\types.h)(0x5123CC93)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x50FA4250)
+I (.\config.h)(0x5123CC93)
